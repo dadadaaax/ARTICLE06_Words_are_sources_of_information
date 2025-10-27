@@ -1,0 +1,82 @@
+# LaTeX intermediate files
+*.aux
+*.auxlock
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.lol
+*.loa
+*.los
+
+# Bibliography
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+
+# Index/Glossary
+*.idx
+*.ilg
+*.ind
+*.ist
+*.acr
+*.acn
+*.alg
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.xdy
+
+# Sync and latexmk
+*.synctex
+*.synctex.gz
+*.synctex(busy)
+*.fdb_latexmk
+*.fls
+
+# Beamer
+*.nav
+*.snm
+*.vrb
+
+# DVI/PS
+*.dvi
+*.xdv
+*.ps
+*.eps
+
+# Minted/Pygments
+_minted*/
+*.pyg
+*.pygtex
+
+# TikZ externalization
+*.dpth
+*.md5
+
+# Output/build directories
+build/
+out/
+output/
+latex.out/
+
+# AUCTeX
+auto/
+
+# Logs
+texput.log
+missfont.log
+
+# Editors/OS
+*~
+*.bak
+*.tmp
+*.temp
+*.swp
+*.swo
+.#*
+.DS_Store
+Thumbs.db
