@@ -7,6 +7,15 @@
     {\Large\bf Words as Sources: Entropy and Redundancy in the Embedding Space}\\[0.5em]
 \end{center}
 
+If you treat  distributional semantics seriously, then it is as an information-theoretic system, 
+and then words are not just arbitrary symbols; they are carriers of information.
+
+
+to help LLMs infer, we can pack it in "packages" to harden the inferences 
+(try first with negation and add informatin about negation to the word embedding [NOT,w]) 
+then to phrases (n-grams) that should everytime influence and restrict what CAN be inferrred
+eg., p->q -> notq -> notp
+
 Language can be seen as a great communication network whose nodes are words, each acting as a {\it source of information}.  
 They can also be seen as outputs of world-word mappings, where each word encodes a concept or object in the external world.
 In this case we may see their semantic contentn as a signal transmitted through a noisy channel.
