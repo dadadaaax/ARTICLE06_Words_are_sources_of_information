@@ -16,9 +16,18 @@ to help LLMs infer, we can pack it in "packages" to harden the inferences
 then to phrases (n-grams) that should everytime influence and restrict what CAN be inferrred
 eg., p->q -> notq -> notp
 
-LLM realy predict on meaning, and logic is precisely predicting GAPS without meaning.
+Now for the axioms: their are pipeline transferring these meanings
+p ->(q ->p) 
+here q is independent of p
+noiselessly.   
+
+LLM  realy predict on meaning, and logic is precisely predicting GAPS without meaning (in abstraction from meaning) but using the meaning of the rule
 So we should make packages on words that are predicted by packaging (part of language or kind of variable), that comprises "inferential meaning only"
 and predict on that, not on usual meaning-embedding. Both aspects could be merged finally
+
+think also about Shannon argument from Joint AEP 
+in transmission you can increase the rate of transmission by increasing the block size (redundancy)
+you can reach proof conclusion even is you are in a negligeble distance from it.
 
 Language can be seen as a great communication network whose nodes are words, each acting as a {\it source of information}.  
 They can also be seen as outputs of world-word mappings, where each word encodes a concept or object in the external world.
@@ -94,6 +103,39 @@ how to encode them hard
 negation as additional token for all words (as one position of words negated, given negation of sentence negates ONLYone word )
 Describe shortly 
 
+
+Quine, Załudowski, and Transformees 
+
+Quine forsaw LLMs
+Zabudowski forsaw their problems.
+
+My quateion 
+The are two main theories of language meaning (truth-condiutioanl and distributional semantics)
+Do they conradict each other? Can the be merged?  
+can truth-conditions theory of meaning be merged with distributional semantics?
+
+Iw ill argue, that not only they are 
+they are complementary and one needs another to exist
+
+
+TC theory is "deflaionary" without DS
+DS is not dournded without TC
+
+Corpiuses  mosty comprise TRUTHs
+So synonymy relations (abandoned by Quine) can be established (closeness in hdspace)
+But synonymi is consequence of words locations (source of inforamtion )
+Words as "information sources" REPLACING objects (represnnt ) - spatiotemporally, yes
+So language can match world
+So LLMs are grounded 
+And therefore truth-condtional theory can be applied co do zasady
+
+
+Warto byłoby wytrenowac model "Quine'" gavagai na corpusie obciętym do zdań obserwacyjncyh
+może z jakiego eksperymtntu
+
+Niedźwiedź goni zająca
+
+Octopus argument 
 
 
 
